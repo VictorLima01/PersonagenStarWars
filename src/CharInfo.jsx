@@ -20,16 +20,16 @@ class CharInfo extends Component{
     render(){
         const info = this.props.charInfo;
         if(!this.state.expanded){
-            return <p className="btn btn-info" onClick={this.open}> Show Info</p>
+            return <p className="btn btn-info" onClick={this.open}>Info</p>
         }
 
         return(
             <div>
-                <p className="btn btn-danger" onClick={this.close}>Hide Info</p>
+                <p className="btn btn-danger" onClick={this.close}>Esconder Info</p>
                 <ul>
-                    <li className="user-details"><h2 >Gender: {info.gender}</h2></li>
-                    <li className="user-details"><h2>Birth date: {info.birth_year}</h2></li>
-                    <li className="user-details"><h2>Hair color: {info.hair_color}</h2></li>
+                    <li className="user-details"><h2 >Genero: {info.gender}</h2></li>
+                    <li className="user-details"><h2>Data de Nascimento: {info.birth_year}</h2></li>
+                    <li className="user-details"><h2>Cor Cabelo: {info.hair_color}</h2></li>
                 </ul>
             </div>
         )
