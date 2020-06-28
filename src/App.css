@@ -42,3 +42,32 @@
 .user-details{
   color: yellow;
 }
+.starwars-name{
+    height: 400px;
+    width: 80%;
+    margin-bottom: 100px;
+   text-align: center;
+}
+.ul-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.li-menu {
+  float: left;
+}
+
+.li-menu a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.li-menu a:hover {
+  background-color: #111111;
+}
