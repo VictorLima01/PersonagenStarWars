@@ -14,15 +14,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Star Friends</title>
   </head>
-  <body class="container" style="background-color: #202040;">
-    <div class="jumbotron">
+  <style>
+    body{
+      background-image: url(fundo.jpg);
+      background-attachment: fixed;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-color: black;
+    }
+  </style>
+  <body class="container">
+    <div class="jumbotron" style="background-image: url(fundo.jpg);">
         <div class="container">
-          <h1 class="center">Personagens Star Wars</h1>
-          <p>
-            Principais Características dos personagens de Star Wars
-          </p>
+          <div class="row">
+            <div class="col-12 starwars-name">
+              <img src="logo.png" class="starwars-name">
+            </div>
+         </div>
         </div>
+        <ul class="ul-menu">
+          <li class="li-menu"><a href="index.html">Personagens</a></li>
+          <li class="li-menu"><a href="planets.html">Planetas</a></li>
+          <li class="li-menu"><a href="#contact">Naves Espaciais</a></li>
+          <li class="li-menu"><a href="#about">Espécies</a></li>
+        </ul>
+        <br>
+        <h1 style="color: yellow;" class="center">Personagens Star Wars</h1>
+        <p style="color: yellow;">
+          Principais Características dos personagens de Star Wars
+        </p>
     </div>
+   
     <div id="root"></div>
   </body>
 </html>
